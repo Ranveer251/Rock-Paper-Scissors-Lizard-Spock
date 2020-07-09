@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+
+  <!-- Score
+  Rules
+
+  You Picked
+  The House Picked
+
+  You Win
+  You Lose
+
+  Play Again -->
+</head>
+<body>
+  <div class="headContainer">
+    <div class="items">
+      <img src="images/logo-bonus.svg" alt="Logo">
+    </div>
+    <div class="score">
+      <div class="scoreHeading">SCORE</div>
+      <div class="scoreValue">0</div>
+    </div>
+  </div>
+
+  <div class="step-1">
+    <!-- <img src="images/bg-triangle.svg" alt="triangle"> -->
+    <div class="blue "><button class="paper" type="button" name="blue"><img src="images/icon-paper.svg" alt="Paper"></button></div>
+    <div class="red"><button class="rock" type="button" name="red"><img src="images/icon-rock.svg" alt="rock"></button></div>
+    <div class="yellow"><button class="scissors" type="button" name="yellow"><img src="images/icon-scissors.svg" alt="scissors"></button></div>
+    <div class="purple"><button class="lizard" type="button" name="purple"><img src="images/icon-lizard.svg" alt="lizard"></button></div>
+    <div class="cian"><button class="spock" type="button" name="spock"><img src="images/icon-spock.svg" alt="spock"></button></div>
+  </div>
+
+  <div class="result invisible">
+    <div class="myChoice mLeft">
+      <p>YOU PICKED</p>
+      <div class="circleElementLeft invisible"></div>
+      <div class="blue invisible"><button class="paper" type="button" name="blue"><img src="images/icon-paper.svg" alt="Paper"></button></div>
+      <div class="red invisible"><button class="rock" type="button" name="red"><img src="images/icon-rock.svg" alt="rock"></button></div>
+      <div class="yellow invisible"><button class="scissors" type="button" name="yellow"><img src="images/icon-scissors.svg" alt="scissors"></button></div>
+      <div class="purple invisible"><button class="lizard" type="button" name="purple"><img src="images/icon-lizard.svg" alt="lizard"></button></div>
+      <div class="cian invisible"><button class="spock" type="button" name="spock"><img src="images/icon-spock.svg" alt="spock"></button></div>
+    </div>
+    <div class="resultText1 invisible">
+      <p></p>
+      <button type="button" name="button">PLAY AGAIN</button>
+    </div>
+    <div class="compChoice mRight">
+      <p>THE HOUSE PICKED</p>
+      <div class="circleElementRight invisible"></div>
+      <div class="preElement"></div>
+      <div class="blue invisible"><button class="paper" type="button" name="blue"><img src="images/icon-paper.svg" alt="Paper"></button></div>
+      <div class="red invisible"><button class="rock" type="button" name="red"><img src="images/icon-rock.svg" alt="rock"></button></div>
+      <div class="yellow invisible"><button class="scissors" type="button" name="yellow"><img src="images/icon-scissors.svg" alt="scissors"></button></div>
+      <div class="purple invisible"><button class="lizard" type="button" name="purple"><img src="images/icon-lizard.svg" alt="lizard"></button></div>
+      <div class="cian invisible"><button class="spock" type="button" name="spock"><img src="images/icon-spock.svg" alt="spock"></button></div>
+    </div>
+  </div>
+
+  <div class="buttonContainer"><div class="rulesBtn">RULES</div></div>
+  <div class="dim-background invisible"></div>
+  <div class="rules invisible">
+    <div class="heading">
+      <span>RULES</span>
+      <img class="cross" src="images/icon-close.svg" alt="cross">
+    </div>
+    <img src="images/image-rules.svg" alt="Rules">
+  </div>
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript" src="index.js">
+
+  </script>
+</body>
+</html>
