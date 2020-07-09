@@ -3,7 +3,9 @@ let score = 0;
 
 $(".rulesBtn").on("click", () =>{
     $(".rules").removeClass("invisible");
-    $("body, html").css("overflow", "hidden");
+    if($(window).width() <650){
+        $("body, html").css("overflow", "hidden");
+    }
     $(".dim-background").removeClass("invisible");
 });
 
