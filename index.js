@@ -3,11 +3,13 @@ let score = 0;
 
 $(".rulesBtn").on("click", () =>{
     $(".rules").removeClass("invisible");
+    $("body, html").css("overflow", "hidden");
     $(".dim-background").removeClass("invisible");
 });
 
 $(".cross").on("click", () =>{
     $(".rules").addClass("invisible");
+    $("body, html").css("overflow", "visible");
     $(".dim-background").addClass("invisible");
 });
 
